@@ -21,7 +21,7 @@ class ConferenceController extends AbstractController
     }
 
     /**
-     * @Route("/", name="homepage")
+     * @Route("/rimas", name="homepage")
      */
     public function index(ConferenceRepository $conferenceRepository)
     {
